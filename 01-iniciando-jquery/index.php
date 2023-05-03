@@ -8,5 +8,8 @@
 </head>
 <body>
     <h1>HELLO WORLD !!!!!!</h1>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../01-iniciando-jquery/script.js"></script>
 </body>
 </html>
