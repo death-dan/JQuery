@@ -21,4 +21,23 @@
 
 $(function () {
     $("h1").html("Forma simplificado de inicialização");
+
+    console.group("Mensagens gerais");
+    console.log("");
+    console.info("Info em mesagem");
+    console.warn("Warnning em mensagem");
+    console.error("Error em mensagem");
+    console.groupEnd();
+
+    var msg = true;
+    console.group("Mensagens gerais");
+    console.info("Cadastro iniciado");
+
+    if (msg === true) {
+        console.log("Cadastro Realizado");
+    } else {
+        console.warn("Erro ao Cadastrar");
+    }
+
+    console.groupEnd();
 });
