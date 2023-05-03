@@ -7,9 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HELLO WORLD !!!!!!</h1>
+    <h1 class="class">HELLO WORLD !!!!!!</h1>
 
     <script src="../js/jquery.js"></script>
-    <script src="../01-iniciando-jquery/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
