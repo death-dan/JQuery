@@ -6,30 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos</title>
 
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+
     <style>
+        *{
+            font-family: 'Open Sans', serif;
+        }
         body {
             padding: 10%;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #09f;
+            color: #fff;
+            font-weight: bold;
+            text-shadow: 1px 1px 0 #000;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background: #069;
         }
     </style>
 </head>
 <body>
-    <article class="article">
-        <header class="article_header">
-            <h1>Curso jQuery Essentials</h1>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Libero esse quidem commodi repellat numquam similique maiores 
-                expedita deserunt fugiat perspiciatis a nihil placeat, dolores 
-                eligendi optio, aliquid veritatis explicabo iure.
-            </p>
-        </header>
+    <p class="j_button button">jQuery Essentials</p>
 
-        <div class="article_content">
-            <p>Lorem Ipsum is simply dummy text of the <mark>printing and typesetting industry.</mark> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <p>It has survived not only five centuries, but also the leap <a href="#" title="Link">into electronic</a> typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing...</p>
-            <p>Lorem Ipsum passages, <b>and more recently with desktop <a href="#" title="Link">into electronic</a> publishing software like Aldus PageMaker</b> including versions of Lorem Ipsum.</p>
-        </div>
-    </article>
+    <div>
+        <p>Focus Nele!</p>
+        <input type="text" name="nome" placeholder="focus">
+    </div>
 
     <script src="../js/jquery.js"></script>
     <script src="eventos.js"></script>
